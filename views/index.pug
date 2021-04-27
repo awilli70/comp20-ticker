@@ -1,0 +1,6 @@
+extends layout
+
+block content
+  h1= title
+  form(action="/showInfo", method="post")
+    input#(type="radio", name="Ticker")
